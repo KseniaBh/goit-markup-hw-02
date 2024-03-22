@@ -4,6 +4,10 @@ body {
   color: #434455;
 }
 /* Header */
+ul,
+ol {
+  list-style: none;
+}
 .upper-menu {
   font-weight: 500;
   font-size: 16px;
@@ -12,6 +16,7 @@ body {
   color: #2e2f42;
   cursor: pointer;
 }
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -45,25 +50,26 @@ body {
   color: #404bbf;
 }
 /* Section 1 */
-.section1 {
+.section-one {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .solutions {
   background-color: #2e2f42;
-  color: #ffffff;
+}
+.solution-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -97,7 +103,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.team-name {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -127,6 +133,10 @@ body {
 
 /* Section 4 */
 .portfolio {
+  background-color: #ffffff;
+}
+
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
