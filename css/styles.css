@@ -15,6 +15,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .logo {
@@ -25,9 +26,11 @@ ol {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-name {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .upper-menu:hover,
@@ -44,6 +47,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
   cursor: pointer;
+  text-decoration: none;
 }
 .contacts-info:hover,
 .contacts-info:focus {
@@ -176,4 +180,5 @@ ol {
 }
 .logo-footer {
   color: #f4f4fd;
+  text-decoration: none;
 }
